@@ -123,7 +123,7 @@ html.dark {
   --hty-secondary-text-color: #555;
   --post-block-bg-color: #fff;
   --smc-link-color: #0078e7;
-  --yun-bg-image: url("https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-0-blur-30px.jpg");
+  --yun-bg-image: url("https://cdn.jsdelivr.net/gh/futurex894/cdn/img/bg/day.jpg");
   --banner-line-color: #000;
   --banner-char-color: #000;
 }
@@ -134,18 +134,35 @@ html.dark {
   --hty-secondary-text-color: #eee;
   --post-block-bg-color: #1b1f2e;
   --smc-link-color: #3ca1ff;
-  --yun-bg-image: url("https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/galaxy.jpg");
+  --yun-bg-image: url("https://cdn.jsdelivr.net/gh/futurex894/cdn/img/bg/dark.jpg");
   --banner-line-color: #fff;
   --banner-char-color: #fff;
   --banner-char-bg-color: rgba(0,0,0,0.5);
   --banner-char-hover-color: #000;
-  --post-card-bg-color: rgba(27,31,46,0.9);
+  --post-card-bg-color: rgba(27,31,46,0.8);
   --post-card-shadow: 0 1px 8px rgba(27,31,46,0.1);
   --sidebar-bg-color: rgba(27,31,46,0.95);
   --sidebar-bg-image: url("");
   --page-btn-bg-color: rgba(0,0,0,0.5);
   --page-btn-hover-bg-color: rgba(199,228,255,0.9);
   --page-btn-active-bg-color: #0078e7;
+/* for waline */
+/* 常规颜色 */
+  --waline-white: #000;
+  --waline-light-grey: #666;
+  --waline-dark-grey: #999;
+/* 布局颜色 */
+  --waline-text-color: #888;
+  --waline-bgcolor: #1e1e1e;
+  --waline-bgcolor-light: #272727;
+  --waline-border-color: #333;
+  --waline-disable-bgcolor: #444;
+  --waline-disable-color: #272727;
+/* 特殊颜色 */
+  --waline-bq-color: #272727;
+/* 其他颜色 */
+  --waline-info-bgcolor: #272727;
+  --waline-info-color: #666;
 }
 .disable-hover,
 .disable-hover * {
@@ -938,7 +955,8 @@ body::before {
 .pagination .prev.current,
 .pagination .next.current,
 .pagination .page-number.current,
-.pagination .space.current {
+.pagination .space.current,
+.algolia-pagination .current .page-number {
   font-weight: normal;
   background: var(--page-btn-active-bg-color);
   color: var(--hty-bg-color) !important;
@@ -1256,7 +1274,7 @@ body::before {
   }
 }
 :root {
-  --post-card-bg-color: rgba(255,255,255,0.9);
+  --post-card-bg-color: rgba(255,255,255,0.8);
   --post-card-shadow: 0 0 10px rgba(255,255,255,0.1);
 }
 .post-card {
@@ -2037,6 +2055,149 @@ body::before {
 }
 .progress-circle-container {
   position: absolute;
+}
+.ais-SearchBox {
+  margin: 0 auto;
+  width: 100% !important;
+  max-width: 100% !important;
+  position: static !important;
+}
+.ais-SearchBox-input {
+  padding: 0.2rem;
+  outline: none;
+  font-size: 1.2rem;
+  width: 100%;
+  border: none;
+  padding-left: 0px;
+  line-height: 1;
+}
+.algolia-powered {
+  float: right;
+}
+.algolia-powered img {
+  display: inline-block;
+  height: 1.2rem;
+  vertical-align: middle;
+}
+.algolia-results {
+  position: relative;
+  overflow: auto;
+  padding: 10px 30px;
+  height: calc(100% - 150px);
+}
+.algolia-results hr {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.algolia-hit-item {
+  display: flex;
+  justify-content: center;
+}
+.algolia-hit-item-link {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  border-bottom: 1px dashed #ccc;
+  font-family: 'Songti SC', 'Noto Serif SC', STZhongsong, STKaiti, KaiTi, Roboto, serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+  max-width: 800px;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-delay: 0s;
+}
+.algolia-hit-item-link mark {
+  color: #db2828;
+  font-family: 900;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.algolia-pagination .ais-Pagination-list {
+  padding-inline-start: 0;
+}
+.algolia-pagination .pagination-item {
+  display: inline-block;
+  list-style-type: none;
+}
+.algolia-pagination .page-number {
+  border-top: none;
+}
+.algolia-pagination .current .page-number {
+  background-color: var(--hty-text-color) !important;
+}
+.algolia-pagination .disabled-item {
+  display: none;
+}
+.ais-Hits-list {
+  margin: 0;
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+.search-popup {
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: 4.5rem;
+  margin: 0;
+  opacity: 0;
+  z-index: 30;
+  transition: 0.6s;
+  visibility: hidden;
+}
+.search-popup.show {
+  visibility: visible;
+  opacity: 1;
+}
+.search-header .close-icon {
+  position: fixed;
+  top: 0.6rem;
+  right: 0.8rem;
+}
+.search-input {
+  background: transparent;
+  color: var(--hty-text-color);
+  font-size: 1.5rem;
+  border-radius: 3rem;
+  padding: 1rem 1.5rem;
+  border: 1px solid #999;
+  box-sizing: border-box;
+  width: 90%;
+  max-width: 800px;
+  font-family: 'Songti SC', 'Noto Serif SC', STZhongsong, STKaiti, KaiTi, Roboto, serif;
+  font-weight: 900;
+  text-align: center;
+}
+.popup .search-icon,
+.popup .close-icon {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  padding: 0.5rem;
+}
+.popup .search-icon .icon,
+.popup .close-icon .icon {
+  width: 2rem;
+  height: 2rem;
+}
+#search {
+  position: fixed;
+  top: 0.6rem;
+  right: 0.8rem;
+}
+#search .icon {
+  color: #0078e7;
+}
+#waline {
+  --waline-theme-color: #0078e7;
+  --waline-active-color: rgba(0,120,231,0.8);
 }
 #comment {
   margin: 0 1rem;
