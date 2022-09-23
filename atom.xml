@@ -17,35 +17,6 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://blog.tryalice.cn/2022/09/23/hello-world/"/>
-    <id>https://blog.tryalice.cn/2022/09/23/hello-world/</id>
-    <published>2022-09-23T07:23:04.886Z</published>
-    <updated>2022-09-23T07:23:04.886Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hello World,学习编程语言的开始。<br>好了，不瞎扯了。这篇文章是一个默认的文章，我本想把它删了，但是目前没什么要写的，如果删了不久光秃秃的了吗？<br>于是，还是随便写什么吧。 </p><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>这个网站是用Hexo搭建的静态网站，使用的主题是<a href="https://yun.yunyoujun.cn/">Yun</a>,作者的博客<a href="https://www.yunyoujun.cn/">点这里</a>。<br>可以说这是一款非常不错的主题，<del>墙裂</del>强烈推荐，说明文档十分详细，上手简单。 </p><blockquote><p>其实以前也手写过个人博客的，但是自己写的实在是太烂了，为了让博客好看一点来回折腾，最后也没做好pc和移动端同时适配。 </p></blockquote><h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><p>略</p><blockquote><p>也没什么好说的</p></blockquote><h2 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h2><p>What scares you the most?<br>The unstoppable marching of time that is slowly guiding us all towards an inevitable death. -Dylan</p><blockquote><p>时光流逝，死亡终将到来。我想利用我这有限的生命，留下点什么，证明我曾经活过。</p></blockquote>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hello World,学习编程语言的开始。&lt;br&gt;好了，不瞎扯了。这篇文章是一个默认的文章，我本想把它删了，但是目前没什么要写的，如果删了不久光秃秃的了吗？&lt;br&gt;于是，还是随便写什么吧。 &lt;/p&gt;
-&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;hea</summary>
-      
-    
-    
-    
-    <category term="伊始之初" scheme="https://blog.tryalice.cn/categories/%E4%BC%8A%E5%A7%8B%E4%B9%8B%E5%88%9D/"/>
-    
-    
-    <category term="杂谈" scheme="https://blog.tryalice.cn/tags/%E6%9D%82%E8%B0%88/"/>
-    
-    <category term="闲话" scheme="https://blog.tryalice.cn/tags/%E9%97%B2%E8%AF%9D/"/>
-    
-    <category term="Hexo" scheme="https://blog.tryalice.cn/tags/Hexo/"/>
-    
-  </entry>
-  
-  <entry>
     <title>文件系统格式</title>
     <link href="https://blog.tryalice.cn/2022/07/19/%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F%E6%A0%BC%E5%BC%8F/"/>
     <id>https://blog.tryalice.cn/2022/07/19/%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F%E6%A0%BC%E5%BC%8F/</id>
@@ -207,6 +178,35 @@
     <category term="loundraw" scheme="https://blog.tryalice.cn/tags/loundraw/"/>
     
     <category term="直到梦醒时分" scheme="https://blog.tryalice.cn/tags/%E7%9B%B4%E5%88%B0%E6%A2%A6%E9%86%92%E6%97%B6%E5%88%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://blog.tryalice.cn/2022/03/25/hello-world/"/>
+    <id>https://blog.tryalice.cn/2022/03/25/hello-world/</id>
+    <published>2022-03-25T15:33:59.000Z</published>
+    <updated>2022-09-23T10:07:48.923Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hello World,学习编程语言的开始。<br>好了，不瞎扯了。这篇文章是一个默认的文章，我本想把它删了，但是目前没什么要写的，如果删了不久光秃秃的了吗？<br>于是，还是随便写什么吧。 </p><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>这个网站是用Hexo搭建的静态网站，使用的主题是<a href="https://yun.yunyoujun.cn/">Yun</a>,作者的博客<a href="https://www.yunyoujun.cn/">点这里</a>。<br>可以说这是一款非常不错的主题，<del>墙裂</del>强烈推荐，说明文档十分详细，上手简单。 </p><blockquote><p>其实以前也手写过个人博客的，但是自己写的实在是太烂了，为了让博客好看一点来回折腾，最后也没做好pc和移动端同时适配。 </p></blockquote><h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><p>略</p><blockquote><p>也没什么好说的</p></blockquote><h2 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h2><p>What scares you the most?<br>The unstoppable marching of time that is slowly guiding us all towards an inevitable death. -Dylan</p><blockquote><p>时光流逝，死亡终将到来。我想利用我这有限的生命，留下点什么，证明我曾经活过。</p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hello World,学习编程语言的开始。&lt;br&gt;好了，不瞎扯了。这篇文章是一个默认的文章，我本想把它删了，但是目前没什么要写的，如果删了不久光秃秃的了吗？&lt;br&gt;于是，还是随便写什么吧。 &lt;/p&gt;
+&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;hea</summary>
+      
+    
+    
+    
+    <category term="伊始之初" scheme="https://blog.tryalice.cn/categories/%E4%BC%8A%E5%A7%8B%E4%B9%8B%E5%88%9D/"/>
+    
+    
+    <category term="杂谈" scheme="https://blog.tryalice.cn/tags/%E6%9D%82%E8%B0%88/"/>
+    
+    <category term="闲话" scheme="https://blog.tryalice.cn/tags/%E9%97%B2%E8%AF%9D/"/>
+    
+    <category term="Hexo" scheme="https://blog.tryalice.cn/tags/Hexo/"/>
     
   </entry>
   
