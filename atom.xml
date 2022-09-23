@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>TryAlice酱の博客</title>
+  
+  
+  <link href="https://blog.tryalice.cn/atom.xml" rel="self"/>
+  
+  <link href="https://blog.tryalice.cn/"/>
+  <updated>2022-09-23T07:23:04.886Z</updated>
+  <id>https://blog.tryalice.cn/</id>
+  
+  <author>
+    <name>TryAlice</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://blog.tryalice.cn/2022/09/23/hello-world/"/>
+    <id>https://blog.tryalice.cn/2022/09/23/hello-world/</id>
+    <published>2022-09-23T07:23:04.886Z</published>
+    <updated>2022-09-23T07:23:04.886Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hello World,学习编程语言的开始。<br>好了，不瞎扯了。这篇文章是一个默认的文章，我本想把它删了，但是目前没什么要写的，如果删了不久光秃秃的了吗？<br>于是，还是随便写什么吧。 </p><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>这个网站是用Hexo搭建的静态网站，使用的主题是<a href="https://yun.yunyoujun.cn/">Yun</a>,作者的博客<a href="https://www.yunyoujun.cn/">点这里</a>。<br>可以说这是一款非常不错的主题，<del>墙裂</del>强烈推荐，说明文档十分详细，上手简单。 </p><blockquote><p>其实以前也手写过个人博客的，但是自己写的实在是太烂了，为了让博客好看一点来回折腾，最后也没做好pc和移动端同时适配。 </p></blockquote><h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><p>略</p><blockquote><p>也没什么好说的</p></blockquote><h2 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h2><p>What scares you the most?<br>The unstoppable marching of time that is slowly guiding us all towards an inevitable death. -Dylan</p><blockquote><p>时光流逝，死亡终将到来。我想利用我这有限的生命，留下点什么，证明我曾经活过。</p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hello World,学习编程语言的开始。&lt;br&gt;好了，不瞎扯了。这篇文章是一个默认的文章，我本想把它删了，但是目前没什么要写的，如果删了不久光秃秃的了吗？&lt;br&gt;于是，还是随便写什么吧。 &lt;/p&gt;
+&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;hea</summary>
+      
+    
+    
+    
+    <category term="伊始之初" scheme="https://blog.tryalice.cn/categories/%E4%BC%8A%E5%A7%8B%E4%B9%8B%E5%88%9D/"/>
+    
+    
+    <category term="杂谈" scheme="https://blog.tryalice.cn/tags/%E6%9D%82%E8%B0%88/"/>
+    
+    <category term="闲话" scheme="https://blog.tryalice.cn/tags/%E9%97%B2%E8%AF%9D/"/>
+    
+    <category term="Hexo" scheme="https://blog.tryalice.cn/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>文件系统格式</title>
+    <link href="https://blog.tryalice.cn/2022/07/19/%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F%E6%A0%BC%E5%BC%8F/"/>
+    <id>https://blog.tryalice.cn/2022/07/19/%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F%E6%A0%BC%E5%BC%8F/</id>
+    <published>2022-07-19T08:03:00.000Z</published>
+    <updated>2022-09-23T07:23:04.886Z</updated>
+    
+    <content type="html"><![CDATA[<p>时间回到一周前，马上要放假了，在收拾宿舍时发现了一个收音机，一个收音机倒是没什么，关键是他有一个TF卡槽和USB接口，使用的是18650电池，我把之前拆的充电宝电池放了进去。</p><p>当我想用U盘放歌时却发现不行，是U盘坏了吗？我找了一张64GB的TF卡插进去发现也不行。<del>？？？？</del>我把收音机型号在搜索引擎中搜索成功发现了关键字PC，我想起了就像mp3可以作为读卡器，这收音机应该也能作为读卡器，但是它是mini-usb的接口，我并没有相应的数据线，用USB-A的接口试了一下没想到，成功显示连接到PC。在PC的磁盘管理器发现TF卡的容量仅24GB左右，而且没有分区。应该是储存介质的大小超出了，收音机所能识别的最大容量。<br>算了，废话少说，总之，就是通过这次了解了fat16，fat32，NTFS三个文件系统的区别，以上！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;时间回到一周前，马上要放假了，在收拾宿舍时发现了一个收音机，一个收音机倒是没什么，关键是他有一个TF卡槽和USB接口，使用的是18650电池，我把之前拆的充电宝电池放了进去。&lt;/p&gt;
+&lt;p&gt;当我想用U盘放歌时却发现不行，是U盘坏了吗？我找了一张64GB的TF卡插进去发现也不</summary>
+      
+    
+    
+    
+    <category term="垃圾佬日记" scheme="https://blog.tryalice.cn/categories/%E5%9E%83%E5%9C%BE%E4%BD%AC%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="收音机" scheme="https://blog.tryalice.cn/tags/%E6%94%B6%E9%9F%B3%E6%9C%BA/"/>
+    
+    <category term="U盘" scheme="https://blog.tryalice.cn/tags/U%E7%9B%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ssh-keygen的二三事</title>
+    <link href="https://blog.tryalice.cn/2022/04/27/ssh-keygen%E7%9A%84%E4%BA%8C%E4%B8%89%E4%BA%8B/"/>
+    <id>https://blog.tryalice.cn/2022/04/27/ssh-keygen%E7%9A%84%E4%BA%8C%E4%B8%89%E4%BA%8B/</id>
+    <published>2022-04-27T15:20:55.000Z</published>
+    <updated>2022-09-23T07:23:04.886Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>选修了移动GIS开发这门课，到目前为止已经快结课了。说实话，移动GIS这东西倒是没学到，只学了点Android开发。对于我来讲GIS开发就很抽象，很广，很杂，用手机显示个地图，计算个最短路径也算Gis开发吧……（自闭）<br>总之现在说一下遇到的问题以及如何解决吧。之前学到Android开发里的传感器，就突然产生了一个利用加速度传感器做一个，手摇鞭炮的Demo，偶然间看到一个随机图片的Api，就想做一个通过晃动换图的Demo，名字就叫<del>手冲模拟器</del>ShakePhone，做完后就觉得这么生草的主意应该上传到Github，用命令生成了一对密钥，并设置deploy keys后，发现没有权限，我也添加了write权限，为什么不行呢？</p><h2 id="ssh-keygen"><a href="#ssh-keygen" class="headerlink" title="ssh-keygen"></a>ssh-keygen</h2><p>先来说一下生成密钥的命令</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t tsa -C &quot;youremail&quot; -f keyname</span><br></pre></td></tr></table></figure><p><code>-t tsa</code>是加密方法<br><code>-C &quot;youremail&quot;</code>是将邮箱加到密钥的后面，好像是为了方便识别<br><code>-f keyname</code>就是设置保存的文件名和路径<br>如果不设置文件名会输出默认名<br>在Android Studio中设置中你会找到ssh设置，里面有密钥位置的字段（属性），初学Android，连GitHub也不太了解的我以为设置这个后用ssh连接远程仓库就会用这密钥（主要是以前都是用https连接）<br>其实是你的仓库名是<a href="mailto:&#103;&#105;&#x74;&#64;&#x67;&#x69;&#x74;&#104;&#x75;&#98;&#46;&#x63;&#x6f;&#109;">&#103;&#105;&#x74;&#64;&#x67;&#x69;&#x74;&#104;&#x75;&#98;&#46;&#x63;&#x6f;&#109;</a>的时候它会使用默认名称的密钥，当有多个仓库或名称不是默认时需要设置config文件 </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">Host github.com</span><br><span class="line">  HostName github.com</span><br><span class="line">  IdentityFile C:\Users\.ssh\id_rsa</span><br><span class="line">  User git</span><br><span class="line">Host hello</span><br><span class="line">  HostName github.com</span><br><span class="line">  IdentityFile C:\Users\.ssh\shakephone</span><br><span class="line">  User git</span><br></pre></td></tr></table></figure><p>相应的要使用shakephone密钥就要把远程仓库改成git@hello </p><h2 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h2><p>看来要学的东西还有很多！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;选修了移动GIS开发这门课，到目前为止已经快结课了。说实话，移动GIS这东西倒是没学到，只学了点Android开发。对于我来讲GIS开发就很</summary>
+      
+    
+    
+    
+    <category term="学习笔记" scheme="https://blog.tryalice.cn/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="github" scheme="https://blog.tryalice.cn/tags/github/"/>
+    
+    <category term="ssh" scheme="https://blog.tryalice.cn/tags/ssh/"/>
+    
+    <category term="Deploy keys" scheme="https://blog.tryalice.cn/tags/Deploy-keys/"/>
+    
+    <category term="Android" scheme="https://blog.tryalice.cn/tags/Android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Diary</title>
+    <link href="https://blog.tryalice.cn/2022/04/25/Diary/"/>
+    <id>https://blog.tryalice.cn/2022/04/25/Diary/</id>
+    <published>2022-04-25T15:33:59.000Z</published>
+    <updated>2022-09-23T07:23:04.886Z</updated>
+    
+    <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="9f8e67fb2bde77f7bd0cab384dd945d1b8e300d52484773c8373eda703e65769">4a8b9dd07222e07d4e7229ca572c1ca007e679705ee82cf54564b935d66adb6a1e1c88276eace2ce91724aaad8a302e5</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-blink">      <input class="hbe hbe-input-field hbe-input-field-blink" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-blink" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-blink" data-content="Password">Password</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    
+    
+    <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
+    
+    
+    
+    <category term="日记" scheme="https://blog.tryalice.cn/categories/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="Diary" scheme="https://blog.tryalice.cn/tags/Diary/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ABook资源下载</title>
+    <link href="https://blog.tryalice.cn/2022/04/21/ABook%E8%B5%84%E6%BA%90%E4%B8%8B%E8%BD%BD/"/>
+    <id>https://blog.tryalice.cn/2022/04/21/ABook%E8%B5%84%E6%BA%90%E4%B8%8B%E8%BD%BD/</id>
+    <published>2022-04-21T10:26:57.000Z</published>
+    <updated>2022-09-23T07:23:04.886Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天老师告诉同学们下周要用到Abook的实习指导。可是abook的实习指导没有提供下载诶。于是问题就产生了……</p><span id="more"></span><p>你以为接下来我要讲爬虫吗？不。因为我对着网页F12找了半天也没有找到下载链接，自己真是太菜了啊！Google一下，ok，成功找到了一个github项目<a href="https://github.com/Sam0230/abook-downloader">abook-downloader</a>。数据成功下载！开源社区好文明！</p><h3 id="后日谈"><a href="#后日谈" class="headerlink" title="后日谈"></a>后日谈</h3><p>说实话看到那些精通某一技术的大佬真的好羡慕啊。反观自己学的很杂，什么都不精道，时间一长，知识什么都忘记了，什么都不会。虽然之前就确定了技术路线主攻c#，但是一直没有行动起来……好吧，发了会牢骚，一点点来吧。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;今天老师告诉同学们下周要用到Abook的实习指导。可是abook的实习指导没有提供下载诶。于是问题就产生了……&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="日记" scheme="https://blog.tryalice.cn/categories/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="Abook" scheme="https://blog.tryalice.cn/tags/Abook/"/>
+    
+    <category term="爬虫" scheme="https://blog.tryalice.cn/tags/%E7%88%AC%E8%99%AB/"/>
+    
+    <category term="node" scheme="https://blog.tryalice.cn/tags/node/"/>
+    
+    <category term="javascript" scheme="https://blog.tryalice.cn/tags/javascript/"/>
+    
+    <category term="杂谈" scheme="https://blog.tryalice.cn/tags/%E6%9D%82%E8%B0%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AddFriend Automatically</title>
+    <link href="https://blog.tryalice.cn/2022/04/13/AddFriend-Automatically/"/>
+    <id>https://blog.tryalice.cn/2022/04/13/AddFriend-Automatically/</id>
+    <published>2022-04-13T15:30:53.000Z</published>
+    <updated>2022-09-23T07:23:04.886Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>emmm，最近<del>一个舍友</del>要换qq号，就面临要转移好友的问题。于是用了冲了个QQ超级会员，打算用好友克隆功能，结果不知道什么情况克隆失败了，再克隆只能下个月。能不能批量添加qq好友，这个问题应运而生。我就直接先下结论，这个问题没有完全解决。</p><h2 id="获取好友列表"><a href="#获取好友列表" class="headerlink" title="获取好友列表"></a>获取好友列表</h2><p>前往<a href="https://qun.qq.com/member.html">https://qun.qq.com/member.html</a>登录，然后F12打开控制台，在NetWork中就可以获取。更加具体可以前往下面我附加的参考地址，我就不重复了.(卖萌)</p><blockquote><p>参考自<a href="https://www.bilibili.com/read/cv10026240">https://www.bilibili.com/read/cv10026240</a></p></blockquote><h2 id="进行好友批量添加"><a href="#进行好友批量添加" class="headerlink" title="进行好友批量添加"></a>进行好友批量添加</h2><p>这里用到的语言是python，原因就是用起来方便一些吧。（pyautogui是真的太强了！）</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br></pre></td><td class="code"><pre><span class="line">from pyperclip import copy</span><br><span class="line">from time import sleep</span><br><span class="line">import pyautogui</span><br><span class="line"></span><br><span class="line">def AddFriend(qq_num,nickname):</span><br><span class="line">    sleep(1)</span><br><span class="line">    #修改为自己的路径</span><br><span class="line">    findit=pyautogui.locateOnScreen(r&#x27;C:\Users\Desktop\Script\find.png&#x27;)</span><br><span class="line">    sleep(1)</span><br><span class="line">    pyautogui.click(findit.left-20,findit.top+findit.height/2)</span><br><span class="line">    sleep(0.5)</span><br><span class="line">    copy(qq_num)</span><br><span class="line">    pyautogui.hotkey(&#x27;ctrl&#x27;,&#x27;a&#x27;)</span><br><span class="line">    sleep(0.5)</span><br><span class="line">    pyautogui.hotkey(&#x27;ctrl&#x27;,&#x27;v&#x27;)</span><br><span class="line">    sleep(0.5)</span><br><span class="line">    pyautogui.press(&#x27;enter&#x27;)</span><br><span class="line">    sleep(2)</span><br><span class="line">    add3=pyautogui.locateOnScreen(r&#x27;C:\Users\Desktop\Script\Add3.png&#x27;)</span><br><span class="line">    sleep(1)</span><br><span class="line">    if add3!=None:</span><br><span class="line">        pyautogui.click(add3.left+add3.width/2,add3.top+add3.height/2)</span><br><span class="line">        sleep(1)</span><br><span class="line">        a=pyautogui.locateOnScreen(r&#x27;C:\Users\Desktop\Script\input.png&#x27;)</span><br><span class="line">        sleep(1)</span><br><span class="line">        if a!=None:</span><br><span class="line">            sleep(0.5)</span><br><span class="line">            pyautogui.click(a.left+a.width/2,a.top+a.height/2)</span><br><span class="line">            copy(&#x27;TryAlice&#x27;)</span><br><span class="line">            sleep(0.5)</span><br><span class="line">            pyautogui.hotkey(&#x27;ctrl&#x27;,&#x27;v&#x27;)</span><br><span class="line">            sleep(0.5)</span><br><span class="line">            #pyautogui.press(&#x27;enter&#x27;)</span><br><span class="line">            b=pyautogui.locateOnScreen(r&#x27;C:\Users\Desktop\Script\next.png&#x27;)</span><br><span class="line">            sleep(1)</span><br><span class="line">            pyautogui.click(b.left+b.width/2,b.top+b.height/2)</span><br><span class="line">            sleep(1)</span><br><span class="line">        sleep(1)</span><br><span class="line">        c=pyautogui.locateOnScreen(r&#x27;C:\Users\Desktop\Script\nickname.png&#x27;)</span><br><span class="line">        if c!=None:</span><br><span class="line">            pyautogui.click(c.left+c.width/2,c.top+c.height/2)</span><br><span class="line">            sleep(1)</span><br><span class="line">            copy(nickname)</span><br><span class="line">            pyautogui.hotkey(&#x27;ctrl&#x27;,&#x27;v&#x27;)</span><br><span class="line">            sleep(0.5)</span><br><span class="line">            pyautogui.press(&#x27;enter&#x27;)</span><br><span class="line">            # 滑块验证</span><br><span class="line">            sleep(2)</span><br><span class="line">            pyautogui.press(&#x27;enter&#x27;)</span><br><span class="line">            added=pyautogui.locateOnScreen(r&#x27;C:\Users\Desktop\Script\cancel.png&#x27;)</span><br><span class="line">            sleep(1)</span><br><span class="line">            if(added!=None):</span><br><span class="line">                pyautogui.click(added.left+added.width/2,added.top+added.height/2)</span><br><span class="line">                sleep(2)</span><br><span class="line">        else:</span><br><span class="line">            print(&quot;出错了!找不到nickname&quot;)</span><br><span class="line">            d=pyautogui.locateOnScreen(r&#x27;C:\Users\Desktop\Script\GB.png&#x27;)</span><br><span class="line">            sleep(1)</span><br><span class="line">            if d!=None:</span><br><span class="line">                pyautogui.click(d.left+d.width/2,d.top+d.height/2)</span><br><span class="line">                sleep(1)</span><br><span class="line">            else:</span><br><span class="line">                print(&quot;关闭出错了，需人工操作&quot;)</span><br><span class="line">        sleep(2)</span><br><span class="line">        #d=pyautogui.locateOnScreen(r&#x27;C:\Users\Desktop\Script\close.png&#x27;)</span><br><span class="line">        #if d!=None:</span><br><span class="line">        #   pyautogui.click(d.left+d.width/2,d.top+d.height/2)</span><br><span class="line">    else:</span><br><span class="line">        print(&quot;QQ搜素无法添加&quot;)</span><br><span class="line"></span><br><span class="line">f=open(r&#x27;C:\Users\Futurex\Desktop\Script\list.txt&#x27;,encoding = &quot;utf-8&quot;)</span><br><span class="line">lines=f.readlines()</span><br><span class="line">f.close()</span><br><span class="line">sleep(5)</span><br><span class="line">addf=pyautogui.locateOnScreen(r&#x27;C:\Users\Futurex\Desktop\Script\Add.png&#x27;)</span><br><span class="line">sleep(1)</span><br><span class="line">if(addf==None):</span><br><span class="line">    print(&quot;未找到添加按钮！&quot;)</span><br><span class="line">else:</span><br><span class="line">    pyautogui.click(addf.left+addf.width-10,addf.top+addf.height/2)</span><br><span class="line">    sleep(1)</span><br><span class="line">    add2=pyautogui.locateOnScreen(r&#x27;C:\Users\Futurex\Desktop\Script\Add2.png&#x27;)</span><br><span class="line">    sleep(1)</span><br><span class="line">    pyautogui.click(add2.left+add2.width/2,add2.top+add2.height/2)</span><br><span class="line">    sleep(1)</span><br><span class="line">    for line in lines:</span><br><span class="line">        res=line.split(&#x27;:&#x27;)</span><br><span class="line">        name=res[2]</span><br><span class="line">        qq_num=res[3]</span><br><span class="line">        qq_num=qq_num.split(&#x27;&#125;&#x27;)[0]</span><br><span class="line">        name=name.split(&#x27;&quot;&#x27;)[1]</span><br><span class="line">        name=name.replace(&#x27;&amp;nbsp;&#x27;,&#x27;&#x27;)</span><br><span class="line">        print(qq_num,name)</span><br><span class="line">        sleep(1)</span><br><span class="line">        AddFriend(qq_num,name)</span><br><span class="line">        sleep(1)</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>其中list.txt格式类似于</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">2: &#123;name: &quot;TryAlice&quot;, uin: 2713749603&#125;</span><br><span class="line">3: &#123;name: &quot;XX&quot;, uin: XXXXXXXX&#125;</span><br><span class="line">4: &#123;name: &quot;XX&quot;, uin: XXXXXXX&#125;</span><br><span class="line">5: &#123;name: &quot;XXXX&quot;, uin: XXXXXXX&#125;</span><br></pre></td></tr></table></figure><p>当然，这是基于tim做的，原理就是，模拟手动添加好友（这东西在理想状态下用按键精灵也不错哎），说到这我就想起来，看到之前有 人用opencv玩明日方舟，网易好像也有个类似的库，emmm，跑题了。用的图片如下。<br><img src="https://cdn.jsdelivr.net/gh/futurex894/cdn/img/illustration/compressed/find.jpg" alt="find" loading="lazy"><em>find.png</em><br><img src="https://cdn.jsdelivr.net/gh/futurex894/cdn/img/illustration/compressed/Add3.jpg" alt="Add3" loading="lazy"><em>Add3.png</em><br><img src="https://cdn.jsdelivr.net/gh/futurex894/cdn/img/illustration/compressed/input.jpg" alt="input" loading="lazy"><em>input.png</em><br><img src="https://cdn.jsdelivr.net/gh/futurex894/cdn/img/illustration/compressed/next.jpg" alt="next" loading="lazy"><em>next.png</em><br><img src="https://cdn.jsdelivr.net/gh/futurex894/cdn/img/illustration/compressed/nickname.jpg" alt="nickname" loading="lazy"><em>nickname.png</em><br><img src="https://cdn.jsdelivr.net/gh/futurex894/cdn/img/illustration/compressed/cancel.jpg" alt="cancel" loading="lazy"><em>cancel.png</em><br><img src="https://cdn.jsdelivr.net/gh/futurex894/cdn/img/illustration/compressed/GB.jpg" alt="GB" loading="lazy"><em>GB.png</em><br><img src="https://cdn.jsdelivr.net/gh/futurex894/cdn/img/illustration/compressed/Add.jpg" alt="Add" loading="lazy"><em>Add.png</em><br><img src="https://cdn.jsdelivr.net/gh/futurex894/cdn/img/illustration/compressed/Add2.jpg" alt="Add2" loading="lazy"><em>Add2.png</em> </p><blockquote><p>参考自<a href="https://jlkl.github.io/2019/03/22/Python_03/">https://jlkl.github.io/2019/03/22/Python_03&#x2F;</a> </p></blockquote><h2 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h2><p>明明完全模拟的手动添加，但还是收不到好友验证，绝了。 一开始偷懒用的是接口,还以为是接口的问题，后来用手工也没有受到验证，看来是腾讯给加了限制。（自闭） </p><blockquote><p>对了关于添加好友时可能会弹出来的滑块验证，没有写，原因是第一次遇到了滑块验证，打算第二天写，结果第二天这个滑块验证就像消失了一样，没有弹出来。算了，懒得写了。（我躺）。感觉<a href="https://zhuanlan.zhihu.com/p/375044296">这篇参考</a>用的方法很流氓。<a href="https://cloud.tencent.com/developer/article/1886547">这篇</a>挺不错，<a href="https://juejin.cn/post/6970289221038931976">这篇</a>也是,让我想起了遥感数字图像处理，卷积运算进行边缘提取。（绝了）</p></blockquote><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">import webbrowser</span><br><span class="line">str=&quot;tencent://AddContact/?fromId=30&amp;fromSubId=1&amp;subcmd=all&amp;uin=2713749603&quot;</span><br><span class="line">webbrowser.open(str)</span><br></pre></td></tr></table></figure><p>希望这篇post对有相关需求的人又所帮助，以上。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;emmm，最近&lt;del&gt;一个舍友&lt;/del&gt;要换qq号，就面临要转移好友的问题。于是用了冲了个QQ超级会员，打算用好友克隆功能，结果不知道什</summary>
+      
+    
+    
+    
+    <category term="摸鱼" scheme="https://blog.tryalice.cn/categories/%E6%91%B8%E9%B1%BC/"/>
+    
+    
+    <category term="python" scheme="https://blog.tryalice.cn/tags/python/"/>
+    
+    <category term="pyautogui" scheme="https://blog.tryalice.cn/tags/pyautogui/"/>
+    
+    <category term="QQ" scheme="https://blog.tryalice.cn/tags/QQ/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Summer Ghost观影</title>
+    <link href="https://blog.tryalice.cn/2022/03/29/Summer-Ghost%E8%A7%82%E5%BD%B1/"/>
+    <id>https://blog.tryalice.cn/2022/03/29/Summer-Ghost%E8%A7%82%E5%BD%B1/</id>
+    <published>2022-03-29T15:02:01.000Z</published>
+    <updated>2022-09-23T07:23:04.886Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>当初知道loundraw还是因为它的毕业作品直到梦醒时分。说实话确实被惊艳到了，简洁的人物，加好看的风景。（总之就是特别喜欢，奈何自己的词穷，无法用言语来表达）<br>这里先放一张里面我最喜欢画面。(并讲一下获得这图片的流程)（我必须承认这并没有什么技术含量）（就是玩）（手动狗头）<br><img src="https://cdn.jsdelivr.net/gh/futurex894/cdn/img/illustration/compressed/before_you_wake_up.jpg" alt="Before you Wake Up" loading="lazy"><em>Before you wake up</em> </p><h2 id="获取图片"><a href="#获取图片" class="headerlink" title="获取图片"></a>获取图片</h2><h3 id="获得高清视频"><a href="#获得高清视频" class="headerlink" title="获得高清视频"></a>获得高清视频</h3><p>首先到<a href="https://www.youtube.com/watch?v=u79x7HzB9SQ">地址</a>下载视频。</p><blockquote><p>下载方法有很多种可以使用油猴脚本，也可以使用第三方网站。这里我推荐直接用油猴脚本就行。</p></blockquote><h3 id="获取视频处理工具"><a href="#获取视频处理工具" class="headerlink" title="获取视频处理工具"></a>获取视频处理工具</h3><p>这里使用的是ffmpeg，这是一个开源的项目，<a href="https://ffmpeg.org/">下载地址</a>。</p><blockquote><p>安装就直接解压到一个位置，将bin文件的路径添加到PATH环境变量。（对了，我用的是windows系统）</p></blockquote><h3 id="开始处理"><a href="#开始处理" class="headerlink" title="开始处理"></a>开始处理</h3><ul><li>先截取要获得帧的左右两秒<br><code>ffmpeg -i input.mp4 -ss 00:01:06 -codec copy -t 4 output.mp4</code><br><code>-i</code>-输入<br><code>-ss</code>-表示开始时间<br><code>-t</code>-持续时间 </li><li>将截取的视频转图片<br><code>ffmpeg -i output.mp4 -r 23.98 -f image2 img-%2d.png</code><br><code>-r</code>-帧速度<br><code>-f</code>-输出格式 </li><li>最后从里面选一张最好看就可以了</li></ul><blockquote><p>插曲：因为把原视频与截取视频搞混了，执行命令的时候我还疑惑需要这么长时间？一看文件夹已经输出300了多张图片…… </p></blockquote><blockquote><p>Tips:<br>ffmpeg有超多的命令，我也不会，都是搜素引擎搜的。当然你可以直接<br><code>ffmpeg -h</code>查看基础命令<br><code>ffmpeg -h long</code>查看常用命令<br><code>ffmpeg -h full</code>查看全部命令<br>查看全部命令，我深刻感受到了开源软件的强大。但这命令应该不适合去学习ffmpeg（不会有人拿新华字典学汉字吧？（手动狗头）</p></blockquote><h2 id="博客图片小技巧"><a href="#博客图片小技巧" class="headerlink" title="博客图片小技巧"></a>博客图片小技巧</h2><p>截取的图片如何放到博客里呢？直接放到服务器上？<br>当然不是。<br>首先在github上新建一个库（没错就是白嫖Github<br>然后当然是把图片放到库里就可以了<br>访问就利用免费cdn <a href="https://www.jsdelivr.com/">jsdelivr</a><br><code>https://cdn.jsdelivr.net/gh/user/repo@version/file</code><br>(修改链接到你的仓库的图片)<br>ok,初步工作已经完成了，为了进一步提高页面的加载速度，就要对图片进行压缩。<br>（当然图片格式很多不能一概而论，这里就说一说常用的png格式吧）<br>先把png格式（无损压缩）转成jpg（有损压缩），进行第一步压缩处理。<br>第二步，用工具对jpg文件进行进一步压缩。（我一般就直接用<a href="https://www.iloveimg.com/zh-cn">在线工具</a>) </p><blockquote><p><a href="https://cdn.jsdelivr.net/gh/futurex894/cdn/img/illustration/origin/before_you_wake_up.png">原图链接</a> </p></blockquote><h2 id="观后感（剧透警告！！！）"><a href="#观后感（剧透警告！！！）" class="headerlink" title="观后感（剧透警告！！！）"></a>观后感（剧透警告！！！）</h2><p>我觉得夏日幽灵是loundraw个人向的作品（夹带了很多私货<br>这个作品大概就是表达了loundraw想画画的心情，ok，恭喜，你已经做到了<br>“我问你 为什么活着呢”<br>“你觉得我看着像是活着吗”<br>“算是吧”<br>“我有时会想不明白 自己到底还算活着吗”<br>“你的心已经死了 不太健康哦”<br>“我可不想被幽灵这么说”<br>“那你到底想做什么”<br>“我不知道”<br>“所以才想知道”<br>“假如变成了幽灵”<br>“烦恼和痛苦是不是都会消失”<br>“只要搞清楚这一点”<br>“或许会有所改变吧”<br>写到这里不知道要怎么说了，就这样吧<br>如果爱好变成了工作，还能一如既往吗？ </p><h2 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h2><p>我必须承认自己还有很多不成熟的地方。<br>如果文章有错误的地方欢迎指出。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;当初知道loundraw还是因为它的毕业作品直到梦醒时分。说实话确实被惊艳到了，简洁的人物，加好看的风景。（总之就是特别喜欢，奈何自己的词穷</summary>
+      
+    
+    
+    
+    <category term="日记" scheme="https://blog.tryalice.cn/categories/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="观后感" scheme="https://blog.tryalice.cn/tags/%E8%A7%82%E5%90%8E%E6%84%9F/"/>
+    
+    <category term="Summer Ghost" scheme="https://blog.tryalice.cn/tags/Summer-Ghost/"/>
+    
+    <category term="loundraw" scheme="https://blog.tryalice.cn/tags/loundraw/"/>
+    
+    <category term="直到梦醒时分" scheme="https://blog.tryalice.cn/tags/%E7%9B%B4%E5%88%B0%E6%A2%A6%E9%86%92%E6%97%B6%E5%88%86/"/>
+    
+  </entry>
+  
+</feed>
