@@ -6,7 +6,7 @@
   <link href="https://blog.tryalice.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.tryalice.cn/"/>
-  <updated>2022-10-21T13:05:50.442Z</updated>
+  <updated>2022-10-21T13:10:31.024Z</updated>
   <id>https://blog.tryalice.cn/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://blog.tryalice.cn/2022/10/21/SuperMap-%E5%9C%B0%E5%BD%A2/"/>
     <id>https://blog.tryalice.cn/2022/10/21/SuperMap-%E5%9C%B0%E5%BD%A2/</id>
     <published>2022-10-21T11:28:52.000Z</published>
-    <updated>2022-10-21T13:05:50.442Z</updated>
+    <updated>2022-10-21T13:10:31.024Z</updated>
     
-    <content type="html"><![CDATA[<p>今天要用supermap iobjects .net进行二次开发，做一些三维的东西，结果发现supermap加载dem作为地形时有很多缝隙，导致三维场景不太美观。如下图。<br><img src="https://cdn.jsdelivr.net/gh/futurex894/cdn/img/illustration/compressed/supermapterrain/Nocache.jpg" alt="无缓存" loading="lazy"><em>无缓存</em></p><p>如果用过ArcGis应该会知道，可以用dem生成Tin，再将Tin用ArcScene加载就可以看到如上图类似的结果，但是没有这样的缝隙。（Arcgis产品已更新，都是如上图的平面化样式，功能也都集成一体，不分arcmap，arccatalog，arcscene，arcglobe等）（而在supermap可以直接将dem作为地形显示成这种结果）</p><p>在supermap问答社区搜索了一下没有相关问题反馈，在b站搜索也没有相关结果，不过有一个用supermap iserver发布地图服务的推荐，其用dem和dom组成的三维场景并没有缝隙，发布地形地图时，使用了dem生成缓存。经验证用生成的缓存进行加载不会出现缝隙。</p><h2 id="生成缓存步骤"><a href="#生成缓存步骤" class="headerlink" title="生成缓存步骤"></a>生成缓存步骤</h2><p>1.在dem数据集鼠标右键，点击生成缓存<br><img src="https://cdn.jsdelivr.net/gh/futurex894/cdn/img/illustration/compressed/supermapterrain/toolbar.png" alt="右键菜单" loading="lazy"><em>右键菜单</em></p><p>2.设置保存位置名称等操作<br><img src="https://cdn.jsdelivr.net/gh/futurex894/cdn/img/illustration/compressed/supermapterrain/profile.png" alt="设置界面" loading="lazy"><em>设置界面</em></p><p>3.缓存结果如下图，其中sct文件，在加载是会用到<br><img src="https://cdn.jsdelivr.net/gh/futurex894/cdn/img/illustration/compressed/supermapterrain/menu.png" alt="目录结构" loading="lazy"><em>目录结构</em></p><h2 id="添加缓存步骤"><a href="#添加缓存步骤" class="headerlink" title="添加缓存步骤"></a>添加缓存步骤</h2><p>1.图层管理图层右键添加缓存数据（.sct）<br><img src="https://cdn.jsdelivr.net/gh/futurex894/cdn/img/illustration/compressed/supermapterrain/toolbar2.png" alt="右键菜单2" loading="lazy"><em>右键菜单2</em></p><h2 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h2><p><img src="https://cdn.jsdelivr.net/gh/futurex894/cdn/img/illustration/compressed/supermapterrain/Addcache.jpg" alt="有缓存结果" loading="lazy"><em>缓存结果</em></p>]]></content>
+    <content type="html"><![CDATA[<p>今天要用supermap iobjects .net进行二次开发，做一些三维的东西，结果发现supermap加载dem作为地形时有很多缝隙，导致三维场景不太美观。如下图。<br><img src="https://cdn.jsdelivr.net/gh/futurex894/cdn/img/illustration/compressed/supermapterrain/Nocache.jpg" alt="无缓存" loading="lazy"><em>无缓存</em></p><p>如果用过ArcGis应该会知道，可以用dem生成Tin，再将Tin用ArcScene加载就可以看到如上图类似的结果，但是没有这样的缝隙。（Arcgis产品已更新，都是如上图的平面化样式，功能也都集成一体，不分arcmap，arccatalog，arcscene，arcglobe等）（而在supermap可以直接将dem作为地形显示成这种结果）</p><p>在supermap问答社区搜索了一下没有相关问题反馈，在b站搜索也没有相关结果，不过有一个用supermap iserver发布地图服务的推荐，其用dem和dom组成的三维场景并没有缝隙，发布地形地图时，使用了dem生成缓存。经验证用生成的缓存进行加载不会出现缝隙。</p><h2 id="生成缓存步骤"><a href="#生成缓存步骤" class="headerlink" title="生成缓存步骤"></a>生成缓存步骤</h2><p>1.在dem数据集鼠标右键，点击生成缓存<br><img src="https://cdn.jsdelivr.net/gh/futurex894/cdn/img/illustration/compressed/supermapterrain/toolbar.png" alt="右键菜单" loading="lazy"><em>右键菜单</em></p><p>2.设置保存位置名称等操作<br><img src="https://cdn.jsdelivr.net/gh/futurex894/cdn/img/illustration/compressed/supermapterrain/profile.png" alt="设置界面" loading="lazy"><em>设置界面</em></p><p>3.缓存结果如下图，其中sct文件，在加载时会用到<br><img src="https://cdn.jsdelivr.net/gh/futurex894/cdn/img/illustration/compressed/supermapterrain/menu.png" alt="目录结构" loading="lazy"><em>目录结构</em></p><h2 id="添加缓存步骤"><a href="#添加缓存步骤" class="headerlink" title="添加缓存步骤"></a>添加缓存步骤</h2><p>1.图层管理图层右键添加缓存数据（.sct）<br><img src="https://cdn.jsdelivr.net/gh/futurex894/cdn/img/illustration/compressed/supermapterrain/toolbar2.png" alt="右键菜单2" loading="lazy"><em>右键菜单2</em></p><h2 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h2><p><img src="https://cdn.jsdelivr.net/gh/futurex894/cdn/img/illustration/compressed/supermapterrain/Addcache.jpg" alt="有缓存结果" loading="lazy"><em>缓存结果</em></p>]]></content>
     
     
       
